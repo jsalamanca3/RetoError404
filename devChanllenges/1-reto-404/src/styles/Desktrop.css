@@ -1,0 +1,27 @@
+.container {
+    grid-template-columns: 10% 40% 50%;
+    grid-template-areas:
+    "header header header header"
+    "side side main main"
+    "side side main main";
+    justify-content: center;
+}
+.container-title {
+    grid-area: header;
+}
+.container-img {
+    grid-area: side;
+    margin-left: 80px;
+}
+img {
+    width: 100%;
+    max-width: 600px;
+    justify-content: center;
+}
+.container-box {
+    grid-area: main;
+    margin-top: 100px;
+}
+.title2 {
+    font-size: 6.2rem;
+}

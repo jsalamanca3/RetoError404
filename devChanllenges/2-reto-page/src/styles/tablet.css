@@ -1,0 +1,38 @@
+body {
+    margin:0 16%;
+}
+.container-main {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: baseline;
+}
+.container-cards {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.cards {
+    width: 80%;
+}
+#img-cards-move2 {
+    margin-top: 100px;
+}
+#img-container-cards-move {
+    margin-top: 0;
+}
+
+
+
+.title-section {
+    margin-right: 16%;
+}
+.title-section-1 {
+    font-size: 2rem;
+}
+.title-section-2 {
+    font-size: 1.8rem;
+}
+.cards-paragraph {
+    font-size: 1.4rem;
+}
