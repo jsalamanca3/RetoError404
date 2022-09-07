@@ -1,0 +1,36 @@
+.header-home {
+    margin-left: 72px;
+}
+.main-container-home {
+    width: 100%;
+    height: auto;
+    padding: 0px 0px 0px 60px;
+    margin-right: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    "text1 foto foto foto"
+    "text2 foto foto foto"
+    "text3 foto foto foto";
+}
+
+.main-text-home {
+    grid-area: text1;
+    margin-top: 180px;
+}
+.main-text-home-t {
+    grid-area: text2;
+    margin-bottom: 80px;
+    padding-right: 80px;
+    padding-right: 40%;
+}
+.main-text-home-read {
+    grid-area: text3;
+    margin-bottom: 150px;
+}
+.main-image-home {
+    grid-area: foto;
+    width: 821.11px;
+    height: 586.53px;
+    padding: 10%;
+}
