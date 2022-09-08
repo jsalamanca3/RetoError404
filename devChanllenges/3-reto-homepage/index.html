@@ -14,20 +14,26 @@
         rel="stylesheet">
     <link href="src/styles/tablet.css" rel="stylesheet" media="screen and (min-width: 768px)">
     <link href="src/styles/laptop.css" rel="stylesheet" media="screen and (min-width: 1280px)">
+    <link href="src/styles/menu.css" rel="stylesheet" media="screen and (max-width: 540px)">
 </head>
 
 <body>
     <header>
+        <div class="imagen-light">
+            <img src="src/imagen/close.svg" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </div>
         <div class="header-home">
             <button" class="home-button">
                 <p class="home-button-text">THIS INTERIOR</p></button>
         </div>
+        <img class="hamburguer" src="src/imagen/hamburguer.png" alt="menu">
         <nav class="nav-menu-buttons">
-            <ul>
-                <li class="nav-home-li"><a href="/">Home</a></li>
-                <li><a href="/">Collection</a> </li>
-                <li><a href="/">About</a> </li>
-                <li><a href="/">Contact</a></li>
+            <ul class="nav-menu-desplegar menu-open">
+                <li class="nav-home-li li-linea-home"><a href="/">Home</a></li>
+                <li class="nav-home-li"><a href="/">Collection</a> </li>
+                <li class="nav-home-li"><a href="/">About</a></li>
+                <li class="nav-home-li"><a href="/">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -54,6 +60,9 @@
             </div>
         </footer>
     </main>
+
+    <script src="src/js/menu.js"></script>
+    <script src="src/js/lighbox.js"></script>
 </body>
 
 </html>

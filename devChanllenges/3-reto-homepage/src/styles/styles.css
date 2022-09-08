@@ -12,7 +12,11 @@ body {
 .nav-menu-buttons {
     display: flex;
 }
-ul {
+.close {
+    display: none;
+}
+
+.nav-menu-desplegar {
     width: 100%;
     height: auto;
     display: flex;
@@ -31,11 +35,12 @@ ul li {
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.8rem;
     margin-right: 5%;
     padding-bottom: 0.5%;
 }
-.nav-home-li {
+.li-linea-home {
+    padding: 0 0 6px 0;
     border-bottom: 2px solid #FFFFFF;
 }
 
@@ -200,4 +205,6 @@ ul li {
     text-align: center;
     color: #A9A9A9;
 }
-
+.hamburguer{
+    display: none;
+}
