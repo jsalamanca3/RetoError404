@@ -1,0 +1,145 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #FFFFFF;;
+    padding: 0 6%;
+    display: grid;
+}
+.container-profile{
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    justify-items: center;
+}
+.container-profile-photo {
+    display: grid;
+    width: 141.55px;
+    height: 212.65px;
+    justify-items: center;
+    align-content: center;
+}
+.image-profilephoto {
+    width: 101.55px;
+    height: 101.65px;
+    border-radius: 16px;
+
+}
+.text-profilephoto {
+    margin-top: 10px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 17px;
+    color: #4E5150;
+}
+.text-profilephoto-city {
+    margin-top: 5px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 12px;
+    color: #A9A9A9;
+}
+.container-profile-section {
+    display: grid;
+    width: 100%;
+    height: auto;
+    justify-items: center;
+}
+.container-info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    width: 280px;
+    height: auto;
+    justify-items: center;
+    margin: -20px 0px 0px 0px;
+}
+.container-info-text {
+    display: grid;
+    width: 78px;
+    height: 52px;
+    background: #E5E5E5;
+    border-radius: 12px;
+    text-align: center;
+    align-content: center;
+}
+.text-info-number {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 15px;
+    color: #4E5150;
+}
+.text-info-contribution {
+    padding: 2px 0px 0px 0px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 15px;
+    color: #BDBDBD;
+}
+.container-imagen-gallery {
+    display: grid;
+    width: 100%;
+    height: auto;
+    margin-top: 7%;
+}
+.container-gallery {
+    display: grid;
+    grid-template-areas:
+    "planta sofa sofa"
+    "banera banera lampara"
+    "mesa planta2 lampara";
+    grid-column-gap: 10px;
+    grid-row-gap: 3%;
+    margin-top: 3%;
+}
+.img-gallery {
+    display: grid;
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 4px 13px 21px 4px rgba(221,221,221,1);
+}
+.img-planta {
+    grid-area: planta;
+}
+.img-sofa{
+    grid-area: sofa;
+}
+.img-banera{
+    grid-area: banera;
+}
+.img-lampara{
+    grid-area: lampara;
+}
+.img-planta2{
+    grid-area: planta2;
+}
+.container-footer {
+    width: 100%;
+    height: 30px;
+    margin-top: 18%;
+}
+.title-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+}

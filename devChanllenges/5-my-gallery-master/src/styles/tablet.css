@@ -1,0 +1,18 @@
+body {
+    padding: 0 10%;
+}
+.container-gallery {
+    grid-column-gap: 4%;
+    grid-row-gap: 3%;
+}
+.container-profile-photo {
+    display: grid;
+    width: 181.55px;
+    height: 212.65px;
+}
+.container-info {
+    width: 300px;
+}
+.container-imagen-gallery {
+    margin-top: 5%;
+}
