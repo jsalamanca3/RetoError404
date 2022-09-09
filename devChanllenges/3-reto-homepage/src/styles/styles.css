@@ -37,7 +37,6 @@ ul li {
     font-weight: 700;
     font-size: 1.8rem;
     margin-right: 5%;
-    padding-bottom: 0.5%;
 }
 .li-linea-home {
     padding: 0 0 6px 0;
@@ -49,7 +48,7 @@ ul li {
     height: auto;
     display: grid;
     justify-content: start;
-    margin-left: 10px;
+    padding-left: 10px;
 }
 .home-button {
     display: grid;

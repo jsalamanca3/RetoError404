@@ -1,0 +1,223 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    background: #FFFFFF;;
+    padding: 5%;
+}
+.container-header-recipe {
+    width: 100%;
+    height: auto;
+    display: grid;
+    margin-top: 32px;
+}
+.title-recipe-blog {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 32px;
+}
+.box-recibe-blog {
+    margin-top: 12px;
+    display: grid;
+    grid-template-columns: 0.1fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+}
+.icon-header-recipe-blog {
+    padding: 20% 0 0 0;
+    width: 20px;
+    height: auto;
+}
+.parrafo-recibe-blog {
+    padding: 0px 23px 0px 2px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #4F4F4F;
+}
+.photo-header-recipe-blog {
+    width: 100%;
+    height: auto;
+    margin-top: 12px;
+}
+.nav-container-recibe {
+    display: grid;
+    margin-top: 24px;
+}
+.container-recibe-time {
+    margin-top: 24px;
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 8% 92%;
+    grid-template-areas:
+    "imagen parrafo1"
+    "imagen parrafo2";
+    justify-items: start;
+    align-items: center;
+}
+.container-recibe-time-foot {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+}
+
+.text-recibe-time {
+    grid-area: parrafo1;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    color: #BDBDBD;
+}
+#text-recibe-time-id {
+    padding: 0px 0px 0px 15px;
+}
+.recibe-time-clok {
+    display: grid;
+    grid-template-columns: 8% 92%;
+    grid-template-areas:
+    "imagen parrafo1"
+    "imagen parrafo2";
+}
+.text-hours-recibe {
+    grid-area: parrafo2;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.2rem;
+    color: #333333;
+}
+.hours-recibe {
+    color: #F2994A;
+}
+.material-symbols-outlined {
+    padding: 2px 0 0 0;
+    grid-area: imagen;
+    color: #4F4F4F;
+    font-size: 2rem;
+    text-align: center;
+}
+.child-material{
+    color: #F2994A;
+}
+.main-container-ingredients {
+    margin-top: 30px;
+}
+.main-text-ingredients {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.8rem;
+    line-height: 24px;
+    color: #333333;
+}
+.main-text-graham {
+    margin-top: 13px;
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 21px;
+    color: #333333;
+}
+.main-form-check {
+    margin-top: 24px;
+}
+label {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 25px;
+    color: #333333;
+}
+.main-container-add-ingredients {
+    margin-top: 42px;
+}
+.main-text-cheesecake {
+    font-family: 'Playfair Display';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.8rem;
+    line-height: 24px;
+    color: #333333;
+}
+.main-text-instructions {
+    margin-top: 30px;
+    padding: 1%;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+    line-height: 32px;
+    color: #333333;
+}
+.main-container-list {
+    margin-top: 28px;
+    display: grid;
+}
+.span-list {
+    display: grid;
+    justify-content: center;
+    align-content: space-around;
+    width: 36px;
+    height: 36px;
+    padding: 0 0 10px 0px;
+    color: #FFFFFF;
+    background: #F2994A;
+    border-radius: 6px;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.4rem;
+}
+li {
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 1fr;
+    list-style: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 20px;
+    color: #000000;
+}
+
+li:nth-child(n+2) {
+    margin-top: 12px;
+}
+li:nth-child(n+3) {
+    margin-top: 35px;
+}
+.container-source {
+    margin-top: 26px;
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 150%;
+    color: #BDBDBD;
+}
+.container-footer {
+    width: 100%;
+    height: 30px;
+    margin-top: 70px;
+}
+.title-footer {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 17px;
+    text-align: center;
+    color: #A9A9A9;
+}

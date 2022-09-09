@@ -1,0 +1,12 @@
+.parrafo-recibe-blog {
+    padding: 0 40% 0px 0px;
+}
+.box-recibe-blog {
+    grid-template-columns: 3% 97%;
+}
+.nav-container-recibe {
+    margin-left: calc(84% - 60px);
+}
+li {
+    grid-template-columns: 8% 92%;
+}
