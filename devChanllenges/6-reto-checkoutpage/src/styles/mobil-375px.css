@@ -1,0 +1,38 @@
+body {
+    padding: 0 6% 0px 5%;
+    /* justify-content: center; */
+}
+.container-box-contact {
+    grid-template-columns: 8% 91%;
+}
+.box-container-country {
+    display: grid;
+    grid-template-columns: 18% 64% 18%;
+    width: 100%;
+    max-width: 217px;
+}
+.container-country {
+    max-width: 480px;
+}
+.select-option {
+    margin: 0px 14px 0px 5px;
+}
+.your-country {
+    padding: 0 0 0 0px;
+    font-size: 1.2rem;
+}
+.container-postal {
+    grid-template-columns: 21% 79%;
+    width: 100%;
+    max-width: 217px;
+}
+.label-postal {
+    padding: 0 0 0 0px;
+    font-size: 1.2rem;
+}
+.container-label-checkbox {
+    grid-template-columns: 4% 96%;
+}
+.container-button-sumit {
+    max-width: 475px;
+}

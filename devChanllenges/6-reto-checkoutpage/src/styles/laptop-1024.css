@@ -1,0 +1,61 @@
+.main-container-chechout{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-areas:
+    "titulo titulo"
+    "information total"
+    "address total";
+    grid-column-gap: 112px;
+}
+.coontainer-text-chechout {
+    grid-area: titulo;
+}
+.container-cards-buy {
+    grid-area: total;
+}
+.container-contact-information {
+    grid-area: information;
+}
+.container-shipping-address {
+    grid-area: address;
+}
+.cards-buy-product {
+    height: 535px;
+}
+.text-chechout {
+    font-size: 3.6rem;;
+}
+.text-information {
+    font-size: 1.8rem;
+}
+.text-information-contact {
+    font-size: 1.2rem;
+}
+.label-contact {
+    font-size: 1.6rem;
+}
+.material-symbols-outlined {
+    font-size: 2.2rem;
+}
+.container-box-contact {
+    grid-template-columns: 10% 90%;
+}
+.container-country {
+    width: auto;
+    grid-column-gap: 11px;
+}
+.box-container-country {
+    grid-template-columns: 18% 64% 18%;
+}
+.container-your-country {
+    padding: 0 10px 0px 0;
+}
+.container-postal {
+    grid-template-columns: 21% 79%;
+}
+.box-container-postal-code {
+    padding: 0px 10px 0px 8px;
+}
+.container-footer {
+    margin-top: 20%;
+}
