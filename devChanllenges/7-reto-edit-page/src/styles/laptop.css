@@ -1,0 +1,131 @@
+.home-text-edit {
+font-size: 3.6rem;
+}
+.nav-hambuerguer{
+    font-size: 2.4rem;
+}
+.container-main-edie {
+    padding: 0 10%;
+}
+.text-website {
+    margin-top: 90px;
+    padding-left: 15%;
+    font-size: 1.8rem;
+}
+.text-services {
+    margin-top: 15px;
+    padding-right: 26%;
+    padding-left: 15%;
+    font-size: 4.8rem;
+    line-height: 72px;
+}
+.text-story {
+    padding-right: 48%;
+    padding-left: 12%;
+    font-size: 4.8rem;
+    line-height: 72px;
+}
+.text-help-ideas {
+    padding-right: 48%;
+    padding-left: 12%;
+    font-size: 1.8rem;
+    line-height: 27px;
+}
+.container-contact-you {
+    padding-left: 12%;
+}
+.container-button-join {
+    width: 350px;
+    max-width: 350px;
+    height: 57px;
+    margin-top: 15px;
+}
+.text-want {
+    font-size: 1.4rem;
+}
+.input-email {
+    margin-right: 35px;
+    font-size: 1.8rem;
+}
+.button-join {
+    max-width: 94px;
+    max-height: 49px;
+    font-size: 1.8rem;
+}
+.text-service {
+    padding-right: 64%;
+    margin-top: 120px;
+    font-size: 3.6rem;
+    line-height: 54px;
+}
+.container-services-on {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-template-areas:
+        "design front back";
+}
+.text-bussiness {
+    padding: 0px 60% 0 0px;
+    font-size: 3.6rem;
+    line-height: 54px;
+}
+.container-businness-desing {
+    grid-column-gap: 20px;
+}
+.text-photos-edie {
+    font-size: 1.6rem;
+    line-height: 21px;
+}
+.text-descrptions-edie {
+    font-size: 2.4rem;
+    line-height: 36px;
+}
+.text-see-more, .material-symbols-outlined {
+    font-size: 2.4rem;
+    line-height: 36px;
+}
+.container-team {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 200px;
+}
+.container-meet-the-team {
+    padding-right: 40%;
+}
+.container-img-team-person {
+    grid-column-gap: 18px;
+    grid-row-gap: 18px;
+}
+.img-person1 {
+    padding: 0 15px 0 0;
+}
+.text-meet {
+    font-size: 1.8rem;
+    line-height: 27px;
+}
+.container-description-edie {
+    margin-top: 150px;
+    padding-right: 28%;
+}
+.text-description-fast {
+    font-size: 3.6rem;
+    line-height: 54px;
+}
+.box-card-person {
+    padding-right: 65%;
+}
+.container-box-services {
+    grid-template-columns: repeat(3, 1fr);
+    align-items: start;
+    margin-top: 46px;
+    padding: 0 10%;
+}
+.container-edie-red {
+    margin-top: 0;
+}
+.p-contact-you {
+    margin-top: 0;
+}
+.container-footer {
+    margin-top: 100px;
+}
+

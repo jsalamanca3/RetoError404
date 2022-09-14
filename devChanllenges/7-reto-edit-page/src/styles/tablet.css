@@ -1,0 +1,97 @@
+.header-edie-menu {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: 0.2fr;
+}
+.menu-open {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: 0.2fr;
+    justify-items: center;
+    padding: 0;
+    margin: -40px 0 0px -10px;
+}
+.nav-hambuerguer {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.8rem;
+    line-height: 36px;
+    color: #333333;
+
+}
+.nav-menu-buttons {
+    display: grid;
+}
+.header-edie {
+    padding: 0 0px 0 15%;
+}
+.img-heroimage {
+    max-height: 354px;
+}
+.container-services-on {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-areas:
+    "design front"
+    "back back";
+}
+.ux-design {
+    grid-area: design;
+}
+.front-end {
+    grid-area: front;
+}
+.back-end {
+    grid-area: back;
+}
+.material-symbols-sharp {
+    margin-top: 0px;
+}
+.container-businness-desing {
+display: grid;
+grid-template-areas:
+"titulo titulo"
+"foto1 foto2"
+"foto3 foto4"
+"foot foot";
+grid-column-gap: 10px;
+}
+.text-bussiness {
+    grid-area: titulo;
+}
+.foto1 {
+    grid-area: foto1;
+    margin-top: 108px;
+}
+.foto2 {
+    grid-area: foto2;
+}
+.foto3 {
+    grid-area: foto3;
+    margin-top: 108px;
+}
+.foto4 {
+    grid-area: foto4;
+}
+.container-see-more {
+    grid-area: foot;
+}
+.text-bussiness {
+    padding: 0px 50% 0 0px;
+}
+.img-edie {
+    margin-top: 0px;
+}
+.container-see-more {
+    grid-template-columns: 95% 5%;
+    justify-items: end;
+    margin-top: -36px;
+}
+.box-card-person {
+    justify-content: center;
+    justify-items: stretch;
+}
+.img-card-person {
+    margin: 0 0 0 -10px;
+}
