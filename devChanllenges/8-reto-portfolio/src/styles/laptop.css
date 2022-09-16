@@ -1,0 +1,55 @@
+
+.main-info-portfolio {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-areas:
+    "info info"
+    "skills css"
+    "hobbies css"
+    "hobbies experiences"
+    "projects projects"
+    "work work";
+    grid-column-gap: 25px;
+    padding: 0 10%;
+    justify-items: center;
+}
+.container-portfolio {
+    height: 311px;
+}
+.img-portfolio {
+    height: 250px;
+    max-height: 255px;
+}
+.container-info-portfolio {
+    grid-area: info;
+}
+.container-skills-front-end {
+    grid-area: skills;
+}
+.container-blog-css {
+    grid-area: css;
+}
+.container-hobbies {
+    grid-area: hobbies;
+}
+.container-experiences {
+    grid-area: experiences;
+}
+.container-projects-button {
+    grid-area: projects;
+}
+.container-projects-work {
+    grid-area: work;
+}
+.container-projects-work {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 25px;
+}
+.img-box-css {
+    width: 270px;
+    height: 321px;
+}
+.container-button-code {
+    grid-column-gap: 3px;
+}

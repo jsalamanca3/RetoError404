@@ -1,0 +1,74 @@
+.main-info-portfolio {
+    padding: 0 18%;
+    grid-column-gap: 10px;
+}
+.container-portfolio {
+    height: 311px;
+}
+/*font-size*/
+.info-name {
+    font-size: 2.4rem;
+}
+.info-work {
+    font-size: 1.8rem;
+}
+.div-info-email {
+    font-size: 1.8rem;
+}
+.text-blog-css {
+    font-size: 1.6rem;
+}
+.text-box-css {
+    font-size: 2.4rem;
+}
+.text-article {
+    font-size: 1.6rem;
+}
+.text-dev-to {
+    font-size: 1.6rem;
+}
+.text-hobbies {
+    font-size: 2.4rem;
+}
+.text-gaming {
+    font-size: 1.8rem;
+}
+.text-parrafo-gaming {
+    font-size: 1.6rem;
+}
+.text-experiencies {
+    font-size: 2.4rem;
+}
+.text-descriptions {
+    font-size: 1.4rem;
+}
+.text-front-end-developer {
+    font-size: 1.6rem;
+}
+.text-aliquam {
+    font-size: 1.6rem;
+}
+.text-button {
+    font-size: 1.8rem;
+}
+.button-projects {
+    margin-left: 10px;
+    font-size: 1.4rem;
+    height: 46px;
+}
+.button-projects:nth-child(3) {
+    width: 100%;
+    max-width: 115px;
+}
+.text-projects-work {
+    font-size: 1.6rem;
+}
+.text-recipe-blog {
+    font-size: 2.4rem;
+}
+.text-project-create {
+    font-size: 1.6rem;
+}
+.button-demo {
+    font-size: 1.8rem;
+}

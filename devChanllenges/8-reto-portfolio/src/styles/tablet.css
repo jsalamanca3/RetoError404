@@ -1,0 +1,49 @@
+.main-info-portfolio {
+    width: 100%;
+    height: auto;
+}
+.container-portfolio {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 0.4fr 1fr;
+    grid-template-areas:
+    "cara name datos"
+    "cara self self";
+    grid-column-gap: 15px;
+    width: 100%;
+    max-width: 1046px;
+    height: auto;
+    max-height: 311px;
+    padding: 2%;
+}
+.img-portfolio {
+    grid-area: cara;
+    width: 100%;
+    width: auto;
+    max-height: 200px;
+}
+.div-info-text-name {
+    grid-area: name;
+}
+.text-card-info-work {
+    margin-top: 15px;
+}
+.div-info-work {
+    margin-top: 0px;
+}
+.div-info-email {
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 0.5fr;
+    margin-top: 15px;
+}
+.div-info-work {
+    grid-area: self;
+}
+.container-projects-work {
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
+}
+.container-projects-button {
+    padding: 2%;
+}
